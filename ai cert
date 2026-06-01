@@ -1,0 +1,177 @@
+你已经有 Java / Spring Boot、Kafka、AWS、微服务、CI/CD 和生产支持经验。对你来说，最合理的路线不是从零转成“训练模型的数据科学家”，而是把已有的后端工程能力迁移到以下两个方向之一：
+
+方向	更接近什么工作	你现有经验的匹配度
+AI Engineer / GenAI Application Engineer	RAG、Agent、LLM API、评估、Guardrails、后端集成	很高
+AI Infra Engineer / AI Platform Engineer	模型部署、Kubernetes、MLOps、推理服务、监控、GPU 基础设施	很高
+
+证书的作用是帮助简历通过初筛、建立学习路径和证明你了解工具生态。真正决定能否转行的仍然是：证书 + 可演示项目 + 系统设计能力。
+
+最值得优先考的证书
+
+1. AWS Certified Machine Learning Engineer – Associate
+
+这是我最建议你优先考的证书。它不是只考理论，而是验证如何实施、部署、维护和 operationalize 生产级 ML workload。它适合从后端和云工程转向 AI Engineer 或 MLOps 的工程师。  
+
+对你最有帮助的内容包括：
+
+* 数据准备和 ML pipeline
+* 模型部署与 inference
+* 自动化与编排
+* 监控、治理和安全
+* 生产环境中的可扩展性与可靠性
+
+你的 Kafka、AWS、微服务、可观测性和生产支持经验都可以直接迁移过来。
+
+优先级：最高。
+
+⸻
+
+如果你选择 AI Engineer 路线
+
+2. AWS Certified Generative AI Developer – Professional
+
+这是 AWS 在 2026 年已经开放标准版本考试的新证书，重点包括 foundation model、RAG architecture、Responsible AI deployment，以及 Bedrock AgentCore 等 GenAI 应用能力。AWS 建议考生具备生产级应用开发经验，并有实际实施 GenAI 方案的经验。  
+
+它非常适合你的目标岗位：
+
+* AI Application Engineer
+* GenAI Engineer
+* Backend Engineer — AI Platform
+* Agent Engineer
+* RAG Platform Engineer
+
+但不建议把它作为第一个证书。你应先完成 AWS ML Engineer Associate，并做出一两个实际项目，再考 Professional。
+
+优先级：第二阶段。
+
+可选：Databricks Certified Generative AI Engineer Associate
+
+这个证书验证使用 Databricks 设计和实现 LLM-enabled solution，包括需求拆解、模型选择和 GenAI 方案设计。它适合目标公司使用 Databricks、Lakehouse、MLflow 或企业数据平台的情况。  
+
+优先级：按目标公司选择，不必一开始就考。
+
+⸻
+
+如果你选择 AI Infra Engineer 路线
+
+2. Certified Kubernetes Administrator（CKA）
+
+AI Infra Engineer 经常需要部署和维护模型服务、推理网关、向量数据库、GPU workload 和 monitoring stack。CKA 是 performance-based 考试，需要在命令行环境实际解决 Kubernetes 任务，而不是只回答选择题。  
+
+它可以直接证明你能够处理：
+
+* Deployment、Service 和 Ingress
+* ConfigMap、Secret 和 Storage
+* Pod troubleshooting
+* Cluster networking
+* Logging、monitoring 和运维
+* 生产环境故障排查
+
+优先级：AI Infra 路线最高。
+
+3. HashiCorp Certified: Terraform Associate（004）
+
+Terraform Associate 004 验证基础 Terraform 和 HCP Terraform 能力，目前测试版本为 Terraform 1.12。对 AI Infra Engineer 来说，IaC 非常实用，因为模型服务、Kubernetes、网络、权限和监控通常都需要自动化交付。  
+
+你之前已经计划学习 Terraform，因此这张证书的投入产出比很高。
+
+优先级：高。
+
+4. NVIDIA Certified Associate: AI Infrastructure and Operations（NCA-AIIO）
+
+NVIDIA 的 NCA-AIIO 是入门级 AI 基础设施证书，验证 AI computing、infrastructure 和 operations 的基础概念。NVIDIA 还提供更深入的 Professional 级证书，覆盖部署、配置、验证、监控、故障排查和优化 NVIDIA AI infrastructure。  
+
+建议先考 Associate，不要直接冲 Professional：
+
+NVIDIA 证书	适合阶段
+NCA-AI Infrastructure and Operations	刚进入 AI Infra，先建立 GPU 和 AI 基础设施知识
+NCP-AI Infrastructure	已经参与 NVIDIA GPU 平台部署
+NCP-AI Operations	已经负责监控、排障和性能优化
+NCP-AI Networking	目标岗位涉及高级 GPU networking
+
+优先级：AI Infra 差异化加分项。
+
+⸻
+
+Azure 和 GCP 证书何时值得考？
+
+不要同时学习三个云平台。先围绕 AWS 建立清晰的职业故事，只有目标岗位明确要求其他平台时才补。
+
+Azure：关注 AI-103 或 AI-300
+
+原来的 Microsoft Azure AI Engineer Associate（AI-102）将在 2026 年 6 月 30 日退休，因此现在不建议从零开始准备 AI-102。新的 **Azure AI Apps and Agents Developer Associate（AI-103）**目前是 beta，重点是 Python、Microsoft Foundry、GenAI 应用和 Agent。  
+
+如果目标偏 AI Infra 或 MLOps，可以关注 Microsoft Certified: Machine Learning Operations Engineer Associate（AI-300）。它覆盖 MLOps、GenAIOps、模型 lifecycle、CI/CD、IaC 和 observability。  
+
+GCP：Professional Machine Learning Engineer
+
+Google Cloud 的 Professional Machine Learning Engineer 覆盖模型 productionization、serving、scaling、pipeline automation 和 monitoring。如果你目标公司的 AI stack 明显偏 Vertex AI 或 GCP，这张证书值得考。  
+
+⸻
+
+不需要优先考的证书
+
+AWS Certified AI Practitioner
+
+AWS AI Practitioner 主要验证 AI、ML 和 GenAI 的概念与 use case。AWS 官方说明，它适合了解但不一定亲自构建 AI/ML 方案的人，包括产品、销售和市场等角色。对于你这种已有多年后端工程经验的人，它偏基础。  
+
+你可以用一两周快速学习对应内容，但不一定要花时间参加考试。
+
+AWS Cloud Practitioner
+
+它适合没有 IT 或 Cloud 背景的初学者。你已经具备 AWS 和后端经验，没有必要考。  
+
+一开始就考多个 Professional 级证书
+
+证书过多但缺少项目，容易给面试官一种“只学习，没有实际构建经验”的感觉。Professional 证书应作为完成项目后的能力证明，而不是起点。
+
+⸻
+
+适合你的证书组合
+
+方案 A：转 AI Engineer
+
+按这个顺序推进：
+
+1. AWS Certified Machine Learning Engineer – Associate
+2. 做一个生产化 RAG / Agent 项目
+3. AWS Certified Generative AI Developer – Professional
+4. 目标公司使用 Databricks 时，再补 Databricks Generative AI Engineer Associate
+
+项目可以做成你熟悉的后端形态：
+
+Spring Boot 或 Python API → LLM Gateway → RAG Retrieval → Vector Store → Evaluation → Guardrails → Kafka Async Processing → Metrics Dashboard
+
+重点不是做一个简单聊天机器人，而是体现你原有的工程优势：可靠性、fallback、retry、idempotency、latency、observability 和 security。
+
+方案 B：转 AI Infra Engineer
+
+按这个顺序推进：
+
+1. CKA
+2. Terraform Associate 004
+3. AWS Certified Machine Learning Engineer – Associate
+4. NVIDIA NCA-AI Infrastructure and Operations
+5. 有实际 GPU 平台经验后，再考虑 NVIDIA Professional 或 AWS DevOps Engineer – Professional
+
+AWS DevOps Engineer – Professional 验证 AWS 分布式应用系统的 provisioning、operations 和 management 能力。它对 AI Infra 有帮助，但由于内容较广，可以放在后期。  
+
+⸻
+
+我的建议
+
+结合你的经历，我会先走一条 AI Platform Engineer 路线：介于 AI Engineer 和 AI Infra Engineer 之间。
+
+你不需要放弃已有的 Java、Kafka、AWS 和分布式系统积累。可以把职业定位调整为：
+
+Backend and cloud engineer transitioning into AI platform engineering, focused on production-grade GenAI services, model serving, MLOps, observability, and scalable infrastructure.
+
+未来 6 个月，最实用的证书计划是：
+
+顺序	证书	目的
+1	AWS Machine Learning Engineer – Associate	建立 AI / ML production 基础
+2	CKA	补齐 Kubernetes 和模型服务部署能力
+3	Terraform Associate 004	证明 IaC 和平台自动化能力
+4	AWS Generative AI Developer – Professional 或 NVIDIA NCA-AIIO	根据最终选择 AI 应用或 AI Infra 路线分叉
+
+证书控制在 3 到 4 张即可。把至少一半时间投入项目和面试准备，转型效果会明显好于继续堆更多入门证书。
